@@ -1,14 +1,16 @@
 [tool.poetry]
-name = "nukeutils"
+name = "nukeUtils"
 version = "0.1.0"
-description = ""
+description = "Package description for nukeUtils"
 authors = ["Suhail <suhailece@gmail.com>"]
+license = "MIT"
 readme = "README.md"
+packages = [{include = "nukeutils", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "3.10.10"
+# Add any package-specific dependencies here
 numpy = "^2.0.0"
-
 
 [build-system]
 requires = ["poetry-core"]
